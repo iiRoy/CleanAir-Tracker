@@ -20,8 +20,8 @@ int giro = 0;
 #define SCREEN_HEIGHT 64
 Adafruit_SSD1306 display (SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
-char ssid[] = "Tec-Contingencia";
-char pass[] = "NULL";
+char ssid[] = "INGRESA NOMBBRE DE LA RED";
+char pass[] = "INGRESA CONTRASENIA DE LA RED";
 
 const char* server = "mqtt3.thingspeak.com";
 
@@ -36,11 +36,11 @@ const char* server = "mqtt3.thingspeak.com";
   WiFiClient client;
 #endif
 
-const char mqttUserName[]   = "AyoFOTI4DwoVLwQ4HiYaDzc"; 
-const char clientID[]       = "AyoFOTI4DwoVLwQ4HiYaDzc";
-const char mqttPass[]       = "GnrnG1/HCNWQRtjjoD4FpW86";
+const char mqttUserName[]   = "INGRESA USUARIO THINKSPEAK"; 
+const char clientID[]       = "INGRESA ID THINKSPEAK";
+const char mqttPass[]       = "INGRESA CONTESENIA THINKSPEAK";
 
-#define channelID 2334677
+#define channelID //INGRESA AQUÍ TU ID DEL CANAL 
 
 const char * PROGMEM thingspeak_ca_cert = \
 "-----BEGIN CERTIFICATE-----\n" \
